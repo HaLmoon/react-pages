@@ -20,9 +20,9 @@ import App from './App'
         <h1>헬로, React!</h1>
       </div> 
     )
-  }
+  } 
 } */
 
 ReactDOM.render(
   <App />, document.getElementById('root')
-); 
+);   
