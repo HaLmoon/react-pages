@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Table from './Table';
 import Form from './Form';
+import Login from './login'
+import Airpods from './scrolling'
+
 
 
 
@@ -65,6 +68,8 @@ class App extends Component {
       <div className='container'>
           <Table  childsData={childs} removeChild={this.removeChild} />
           <Form handleSubmit={this.handleSubmit} />
+          <Login />
+          <Airpods />
       </div>
     )
   }
