@@ -3,8 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import Table from './Table';
 import Form from './Form';
-import Login from './login'
-import Airpods from './scrolling'
+import Login from './login';
+import Input from './Input';
+import InputMethod from './InputMethod';
+import ReactTest from './ReactTest'
+import Wrapper from './Wrapper'; 
+import Counter from './Counter'
+
+
 
 
 
@@ -68,8 +74,14 @@ class App extends Component {
       <div className='container'>
           <Table  childsData={childs} removeChild={this.removeChild} />
           <Form handleSubmit={this.handleSubmit} />
-          <Login />
-          <Airpods />
+          {/* <Login /> */}
+          <Input />
+          <InputMethod />
+          <Wrapper>
+            <ReactTest  color="red"/>
+            <ReactTest  color="red" name="react" isSpecial/>
+          </Wrapper>
+          <Counter />
       </div>
     )
   }

@@ -1,6 +1,6 @@
 
     const html = document.documentElement;
-    const canvas = document.getElementById("airpods");
+    const canvas = document.querySelector(".scrolling-airpods");
     const context = canvas.getContext('2d');  
 
     const currenFrame = index => (
