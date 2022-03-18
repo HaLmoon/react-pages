@@ -9,6 +9,8 @@ import InputMethod from './InputMethod';
 import ReactTest from './ReactTest'
 import Wrapper from './Wrapper'; 
 import Counter from './Counter'
+import InputSample from './InputSample';
+import InputSample2 from './InputSample2'
 
 
 
@@ -82,6 +84,8 @@ class App extends Component {
             <ReactTest  color="red" name="react" isSpecial/>
           </Wrapper>
           <Counter />
+          <InputSample />
+          <InputSample2 />
       </div>
     )
   }
