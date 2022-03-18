@@ -23,7 +23,7 @@ function InputSample2 () {
             <input name='nickname'  onChange={onChange2} placeholder='닉네임'/>
             <button onClick={onReset2} >초기화</button>
             <h3>값 : </h3>
-
+        
         </div>
     )
 }

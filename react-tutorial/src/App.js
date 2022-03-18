@@ -11,6 +11,8 @@ import Wrapper from './Wrapper';
 import Counter from './Counter'
 import InputSample from './InputSample';
 import InputSample2 from './InputSample2'
+import InputSample3 from './InputSample3';
+import UserList from './UserList';
 
 
 
@@ -86,6 +88,8 @@ class App extends Component {
           <Counter />
           <InputSample />
           <InputSample2 />
+          <InputSample3 />
+          <UserList />
       </div>
     )
   }
